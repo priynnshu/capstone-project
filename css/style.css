@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  background-color: #fbe8e8;
+  color: #333;
+}
+header {
+  background-color: #7e4141;
+  color: white;
+  padding: 15px 0;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+.logo {
+  font-size: 1.8em;
+  font-weight: bold;
+  display: inline-block;
+}
+nav {
+  float: right;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+nav a:hover,
+nav a.active {
+  text-decoration: underline;
+}
+.hero {
+  background: url(https://cdn.sanity.io/images/8qqycr4y/production/441f3e48b83feacd5a3ad15666ca295fd9263d2e-800x600.webp) center/cover no-repeat;
+  color: #dbab8c;
+  text-align: center;
+  
+  padding: 100px 20px;
+  background-color: #583535;
+  padding-bottom: 200px;
+}
+.hero-text h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  padding-top: 150px;
+}
+.hero-text p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+  
+}
+
+.btn {
+  background-color: white;
+  color: #402727;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  
+}
+
+.btn:hover {
+  background-color: #402727;
+  color: white;
+}
+.content, .intro {
+  padding: 50px 0;
+}
+.content h2, .intro h2 {
+  text-align: center;
+  color: #7e4141;
+  margin-bottom: 20px;
+}
+.content p, .intro p {
+  text-align: center;
+  width: 80%;
+  margin: 10px auto;
+  line-height: 1.6;
+}
+.service-box {
+  background: white;
+  padding: 20px;
+  margin: 15px 0;
+  border-left: 5px solid #7e4141;
+  border-radius: 5px;
+}
+.doctor-list {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.doctor-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.doctor-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 400px;
+}
+.contact-form input, .contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.contact-form button {
+  background-color: #7e4141;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.contact-form button:hover {
+  background-color: #7e4141;
+}
+footer {
+  background-color: #7e4141;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 40px;
+}
